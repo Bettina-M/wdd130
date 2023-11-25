@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Open+Sans:wght@300&family=Pixelify+Sans&display=swap');
+
+*{
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#logo{
+    width:150px;
+    margin-left: 20px;
+}
+nav,a {
+    display: flex;
+    justify-content: space-around;
+    color:#FFFFFF;
+    font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+#top-background{
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    grid-template-rows: 1fr;
+    
+    
+ }   
+#top-image{
+    width: 100%;
+    height: 80%;
+    grid-column:1/4;
+    grid-row:1/2;
+    margin-top: -200px;
+    z-index: -1;
+    margin-bottom:-1200px; /*Sister Hollis you have to forgive me here trial and error to reduce the huge gap between the two elements, will appreciate your guidance as i cannot do this with a future client*/
+}
+#top-heading{
+    grid-column: 1/4;
+    grid-row:1/2;
+    font-size: 500%;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+#my_picture{
+    display: inline;
+    width: 400px;
+    grid-column: 1/5;
+    margin-left: 30px;
+    border-radius: 200px;
+    
+    
+}
+h2{
+    font-family:'IBM Plex Mono', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color:#14213D;
+}
+p{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #14213D;
+}
+#word-section{
+    margin-top: -200px; /*same here i ran out of options and time was running out :( */
+    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 0.2fr);
+    
+}
+#heading2, #heading3{
+    text-align: center;
+    font-size: 200%;
+}
+#para1{
+    grid-column: 5/11;
+    grid-row:1/2;
+    text-align: center;
+    font-size: 120%;
+    margin-right: 50px;
+    line-height: 50px;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 3px 3px 3px #FCA311 /*added borders and shadows to place emphasis/attention to this section*/
+   
+}
+#para2,#heading2{
+    grid-column:1/11;
+   
+}
+#heading2{
+    margin-top: 150px;
+}
+#heading3{
+    grid-column:1/11;
+    
+}
+#para2{
+    font-size: 120%;
+    line-height: 40px;
+    margin: 15px;
+}
+#para3{
+    grid-column:1/11;
+    grid-row:5/6;
+    font-size: 120%;
+    line-height: 40px;
+    margin:15px;
+}
+
+footer{
+background-color: #14213D;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top:50px;
+height: 150px;
+}
+
+#footer-msg{
+    color:#FFFFFF;
+}
+.social_media a{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+.social_media img{
+    width: 30px; 
+    height: 30px; 
+}
+
+
+a:hover{
+    background-color:#FCA311;
+    color:#14213D;
+}
+
+
+
