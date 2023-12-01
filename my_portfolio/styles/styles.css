@@ -29,14 +29,14 @@ nav,a {
  }   
 #top-image{
     width: 100%;
-    height: 80%;
+    height: 500px;
     grid-column:1/4;
     grid-row:1/2;
     margin-top: -200px;
     z-index: -1;
-    margin-bottom:-1200px; /*Sister Hollis you have to forgive me here trial and error to reduce the huge gap between the two elements, will appreciate your guidance as i cannot do this with a future client*/
+    margin-bottom:-1200px; 
 }
-#top-heading{
+#top-heading,#projects-heading{
     grid-column: 1/4;
     grid-row:1/2;
     font-size: 500%;
@@ -64,7 +64,7 @@ p{
     color: #14213D;
 }
 #word-section{
-    margin-top: -200px; /*same here i ran out of options and time was running out :( */
+    margin-top:400px; 
     
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -138,7 +138,49 @@ height: 150px;
 a:hover{
     background-color:#FCA311;
     color:#14213D;
+    
 }
-
-
-
+/*css of specific elements of page 2*/
+#page2-heading{
+    text-align: center;
+    font-family:'IBM Plex Mono', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color:#14213D;
+    margin-top: 300px;
+    
+}
+#Projects_icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 0.5fr)
+}
+#dry-oar-logo{
+    display: flex;
+    grid-column: 2/4;
+    grid-row:1/2;
+    align-content: center;
+    align-content: center;
+    margin-top: 100px;
+    
+}
+#progress-pic{
+    display: inline;
+    grid-column: 2/4;
+    grid-row:3/5;
+    margin-top: 50px;
+    
+}
+#rafting-heading{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+#progress-text{
+    grid-column: 2/4;
+    grid-row: 5/6;
+    font-size: 120%;
+    line-height: 40px;
+    margin:15px;
+    text-align: center;
+    
+}
