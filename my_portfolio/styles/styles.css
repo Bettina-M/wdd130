@@ -254,6 +254,8 @@ button{
 input{
     height: 5em;
     border-radius: 10px;
+    font-family:'IBM Plex Mono', Arial, Helvetica, sans-serif; 
+    font-size: 80%;
 }
 textarea{
     width: 100%;
